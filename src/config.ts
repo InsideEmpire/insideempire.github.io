@@ -1,91 +1,69 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Liu, Guankai (Garrison)", [cite: 2]
+  title: "Computer Science Student & Software Engineer", [cite: 3]
+  description: "Portfolio website of Garrison Liu",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "garrison.liu@outlook.com", [cite: 2]
+    linkedin: "https://linkedin.com/in/garrisonliu", [cite: 2]
+    github: "https://github.com/InsideEmpire", [cite: 2]
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I am a Computer Science student at Brigham Young University-Idaho with a passion for software development and systems engineering. [cite: 1, 3] I have experience in software testing at Philips and developing vehicle control systems. [cite: 5, 6, 12, 16] I am also an active open-source contributor, focusing on documentation and data management improvements. [cite: 40]",
+  skills: ["Python", "Java", "C/C++", "Swift", "Assembly", "MySQL", "SQL Server", ".Net"], [cite: 39]
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "SolarTint", [cite: 19]
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A SwiftUI-based macOS app that dynamically adjusts screen color temperature based on real-time solar elevation using CoreLocation and custom algorithms.", [cite: 19, 21, 22]
+      link: "https://github.com/InsideEmpire/SolarTint", [cite: 20]
+      skills: ["Swift", "SwiftUI"], [cite: 19]
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "DigitClassifier", [cite: 24]
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Implemented an Artificial Neural Network in RISC-V assembly to classify handwritten digits. Optimized matrix computations and developed ReLU activation and Argmax functions.", [cite: 24, 25, 29, 30]
+      link: "https://github.com/InsideEmpire/DigitClassifier-RISC-V", [cite: 27]
+      skills: ["Assembly (RISC-V)", "Python"], [cite: 24]
     },
     {
-      name: "ExtensionKit",
+      name: "BearMaps", [cite: 31]
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A Java-based map application providing rastering, A* pathfinding, and navigation. Features a custom double-hash table database and a local server for API requests.", [cite: 31, 32, 34, 35, 36, 37]
+      link: "https://github.com/InsideEmpire/BearMap", [cite: 32]
+      skills: ["Java"], [cite: 31]
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Philips", [cite: 5]
+      title: "Software Test Engineer (Internship)", [cite: 6]
+      dateRange: "Feb 2025 - Aug 2025", [cite: 9]
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Tested and validated core functions of the EarlyVue VS30 vital signs monitor and Philips Device Management Dashboard.", [cite: 10]
+        "Validated vital sign accuracy, remote diagnostics, and software update systems.", [cite: 10]
+        "Collaborated with cross-functional teams to reproduce defects and propose usability improvements.", [cite: 11]
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Formula Hybrid Electric Society", [cite: 12]
+      title: "Software Team Member", [cite: 12]
+      dateRange: "Sep 2025 - Present", [cite: 15]
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Developed software for vehicle pedal systems, converting potentiometer analog signals into digital values.", [cite: 16]
+        "Tested, calibrated, and debugged signal processing logic for vehicle control.", [cite: 17]
+        "Integrated pedal input with other vehicle subsystems through team collaboration.", [cite: 17]
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Brigham Young University-Idaho", [cite: 3]
+      degree: "Bachelor of Science in Computer Science", [cite: 3, 8]
+      dateRange: "2025 - Present", [cite: 15]
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Major in Computer Science", [cite: 3]
+        "Freshman status", [cite: 8]
       ],
     },
   ],
