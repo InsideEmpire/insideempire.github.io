@@ -19,6 +19,12 @@ export const siteConfig = {
       skills: ["Swift", "SwiftUI"],
     },
     {
+      name: "readme-LineCounter",
+      description: "A tool that automatically fetches GitHub user data via API to count total lines of code and generates dynamic, themeable SVG statistics cards for profile READMEs.",
+      link: "https://github.com/InsideEmpire/readme-LineCounter",
+      skills: ["Python", "Vercel"],
+    },
+    {
       name: "DigitClassifier",
       description: "Implemented an Artificial Neural Network in RISC-V assembly to classify handwritten digits from the MNIST dataset.",
       link: "https://github.com/InsideEmpire/DigitClassifier-RISC-V",
